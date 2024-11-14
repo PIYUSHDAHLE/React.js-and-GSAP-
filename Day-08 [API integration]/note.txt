@@ -1,0 +1,10 @@
+Command 
+ npm i axios
+
+What is Axios?
+----------------
+Axios is a popular JavaScript library used for making HTTP requests from the browser or a Node.js environment. 
+
+It provides an easy-to-use API for performing actions like getting data from a server (GET requests), sending data to a server (POST requests), updating resources (PUT/PATCH requests), and deleting resources (DELETE requests). 
+
+It’s commonly used in modern web development, especially in applications built with frameworks like React, Vue, and Angular.

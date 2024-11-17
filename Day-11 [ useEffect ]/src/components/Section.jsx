@@ -11,13 +11,22 @@ useEffect(() => {
 
 // case:2
 useEffect(() => {
-    alert('Bar Bar aata hu mein')
+  alert('Bar Bar aata hu mein')
 })
 
 // case:3
 useEffect(() => {
-alert('Number is Changes')
+  alert('Number is Changes')
 }, [num])
+
+// case:4 ex of cleanUp function
+useEffect(() => {
+    alert('LOAD ONLY SINGLE TIME (Mount)')
+    return () =>{
+      alert('The Page is UnMount')
+    }
+}, [])
+
 
 
   return (
